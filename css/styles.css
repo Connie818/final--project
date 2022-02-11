@@ -69,14 +69,25 @@ input[type=submit]:hover {
 
 .about-section,h1 {
     text-align: center;
-    padding:10%;
+    padding:80px;
+    margin:20px ;
     background-color: rgb(152, 196, 152);
     color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about-section {
+    font-family: 'PT Sans', sans-serif; 
+
 }
 
 /* Thi is main page */
 .topnav {
     background-color:rgb(204, 109, 149) ;
     overflow: hidden;
+    font-size:20px;
+    padding:20px,20px,20px;
+    font-family: 'Oswald', sans-serif;
+
 
 }
