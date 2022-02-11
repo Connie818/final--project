@@ -3,8 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
 
 * {
-    box-sizing: border-box; 
-    background-color: rgb(181, 214, 214);
+    box-sizing: border-box;
 }
 input[type=text],select,textarea{
     width:100%;
@@ -68,3 +67,16 @@ input[type=submit]:hover {
 
 /* This is about.html stylesheet */
 
+.about-section,h1 {
+    text-align: center;
+    padding:10%;
+    background-color: rgb(152, 196, 152);
+    color: black;
+}
+
+/* Thi is main page */
+.topnav {
+    background-color:rgb(204, 109, 149) ;
+    overflow: hidden;
+
+}
