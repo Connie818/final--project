@@ -1,7 +1,10 @@
 /* This is contact.html stylesheet */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=PT+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Oswald:wght@200&family=PT+Sans:ital@1&display=swap');
 
+
+/* This is contact page styltsheet */
 * {
     box-sizing: border-box;
 }
@@ -65,7 +68,7 @@ input[type=submit]:hover {
 }
 }
 
-/* This is about.html stylesheet */
+/* This is about page stylesheet */
 
 .about-section,h1 {
     text-align: center;
@@ -81,13 +84,126 @@ input[type=submit]:hover {
 
 }
 
-/* Thi is main page */
+.map {
+    float:left;
+}
+
+.video {
+    float: right;
+
+}
+
+/* Thi is main page stylesheet */
+
+
+header {
+width: 1000px;
+}
+
 .topnav {
     background-color:rgb(204, 109, 149) ;
     overflow: hidden;
     font-size:20px;
     padding:20px,20px,20px;
     font-family: 'Oswald', sans-serif;
-
+    display: center;
 
 }
+.topnav a {
+    text-decoration: none;
+    display: block;
+    float:left;
+    width:100px;
+    
+}
+
+.container1{
+    background-color: goldenrod;
+    width: 900px;
+    height: 600px;
+    margin: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section{
+    background-color: blue;
+    width: 500px;
+    height: 300px;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+article{
+    background-color: purple;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+aside{ 
+    text-align: center;
+    color: yellow;
+    height: 600px;
+    width: 400px;
+    float: left;
+    background-color: transparent;
+}
+.right{
+    height: 600px;
+    width: 500px;
+    float:left;
+}
+.clearfloat{
+    clear: both;
+}
+
+
+footer{
+    padding:30px 0px;
+    text-align:center;
+    font-family: 'Gideon Roman', cursive;
+    font-size: 18px;
+}
+footer.row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+
+}
+    
+.footer.row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+}
+    
+ .footer.row a:hover{
+    color:#fff;
+
+}
+    
+.footer.row2{
+    width:100%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+
+ .footer.row2 a i{
+    font-size:1px;
+    margin:0% 1%;
+}
+    
+@media (max-width:620px){
+    .footer{
+    text-align:left;
+    padding:5%;
+}
+}
+
