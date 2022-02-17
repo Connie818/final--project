@@ -186,6 +186,7 @@ p {
 .video-content h1 {
     margin:5px;
     margin-bottom:10px;
+    font-size: 4vmin;
 }
 
 /* footer for main page */
