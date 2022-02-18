@@ -48,16 +48,21 @@
      display: flex;
  }
 
+ .subject {
+     margin: 10px;
+ }
+
  .contact .content h1 {
-     float: center;
+     margin-top:20px;
+
  }
 
 input[type=text],select,textarea{
     width:100%;
-    padding:15px;
+    padding:12px;
     border:1px solid #000000;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     resize:vertical
 }
 
@@ -68,7 +73,7 @@ textarea {
 
 input[type=submit] {
     color: black;
-    padding: 12px 30px;
+    padding: 12px 20px;
     margin-bottom: 100px;
     border: none;
    color: darkgreen;
